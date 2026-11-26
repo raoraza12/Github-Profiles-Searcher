@@ -1,0 +1,12 @@
+# Environment / secrets — never commit these
+.env
+.env.*
+
+# Dependencies / build output (none currently, guarded for the future)
+node_modules/
+dist/
+
+# OS / editor artefacts
+.DS_Store
+Thumbs.db
+.vscode/
